@@ -7,12 +7,12 @@ import Navbar from './component/Navbar'
 //import Project from './component/Project'
 //import About from './component/About'
 //import Services from './component/services'
-import Header from "@/app/component/layout/header"
+
 
 export default function Home() {
   return (
     <div>
-      <Header />
+     
      {/* <Navbar/>
        <Hero />
          <About />
