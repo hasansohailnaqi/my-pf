@@ -20,7 +20,7 @@ const Navbar = () => {
     />
       <span className="ml-3 text-xl">MSc3.0</span>
     </a>
-    <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+    <nav className="md:mr-auto md:ml-2 md:py-0 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
       <Link href={"/"} className="mr-5 hover:text-blue-600">Home</Link>
       <Link href={"#About"} className="mr-5 hover:text-blue-600">About</Link>
       <Link href={"#"} className="mr-5 hover:text-blue-600">Contact</Link>
