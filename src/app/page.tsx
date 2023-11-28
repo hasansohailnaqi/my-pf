@@ -1,7 +1,8 @@
 import Image from 'next/image'
 
-import nav from './component/nav'
+//import nav from './component/nav'
 //import Hero from './component/Hero'
+import Navbar from './component/Navbar'
 //import Contact from './component/Contact'
 //import Project from './component/Project'
 //import About from './component/About'
@@ -10,13 +11,13 @@ import nav from './component/nav'
 export default function Home() {
   return (
     <div>
-       <nav />
-
-       {/*  <Hero />
+      <Navbar/>
+      {/* <Hero />
          <About />
          <Services />
          <Project />
-         <Contact />       */}
+         <Contact />       
+          <nav />     */}
     </div>
    
   )
