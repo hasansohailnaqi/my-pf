@@ -52,7 +52,7 @@ const Hero = () => {
         alt="hero"
         width={100}
         height={80}
-        src={require('../../../../public/img/65.jpg')}
+        src={require('../../../public/img/65.jpg')}
       />
     </div>
   </div>

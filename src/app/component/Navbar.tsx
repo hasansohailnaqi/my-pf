@@ -14,7 +14,7 @@ const Navbar = () => {
       
       {/*image for logo*/}
 
-    <Image src={require("../../../../public/logo/company.png")} alt="mSC3.0" 
+    <Image src={require("../../../public/logo/company.png")} alt="mSC3.0" 
     width={100} 
     height={80}
     />
