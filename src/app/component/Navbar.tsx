@@ -7,13 +7,22 @@ import { IoCloudDownloadOutline } from 'react-icons/io5';
 
 const Navbar = () => {
   return (
-    <header className=" items-center bg-slate-700">
+    <header>
   <nav className="bg-blue-500 p-4 ">
     <div className="flex justify-between">
+      <div className='flex'>
   <a href="#">
     <img className=" inline h-7" src="https://res.cloudinary.com/thirus/image/upload/v1628614672/logos/circleai_dm9slt.png" alt="" />
   </a>
-  <ul className='flex bg-slate-500'>
+  <a href="/cv/myCv.pdf" download="your-cv-file-name.pdf"> 
+    <button className="flex items-center bg-gray-100 border-0 py-0 px-1 focus:outline-none hover:bg-gray-200 rounded text-base mt-1 md:mt-0 ml-8"
+    >Download cv 
+      <IoCloudDownloadOutline className="text-xl ml-2" />
+      </button>
+      </a>
+
+</div>  
+  <ul className="flex bg-slate-500">
     <li>
       <a href="#">Home</a>
     </li>
