@@ -8,14 +8,14 @@ import { IoCloudDownloadOutline } from 'react-icons/io5';
 const Navbar = () => {
   return (
     <header>
-  <nav className="bg-blue-500 p-4 ">
+  <nav className= " bg-slate-200 p-7 ">
     <div className="flex justify-between">
       <div className='flex'>
   <a href="#">
-    <img className=" inline h-7" src="https://res.cloudinary.com/thirus/image/upload/v1628614672/logos/circleai_dm9slt.png" alt="" />
+    <img className=" inline h-5" src="https://res.cloudinary.com/thirus/image/upload/v1628614672/logos/circleai_dm9slt.png" alt="" />
   </a>
   <a href="/cv/myCv.pdf" download="your-cv-file-name.pdf"> 
-    <button className="flex items-center bg-gray-100 border-0 py-0 px-1 hover:bg-gray-200 rounded text-base mt-1 md:mt-0 ml-8"
+    <button className="flex mt-1 h-5 items-center bg-inherit border-0 py-0 px-5 hover:bg-gray-200 rounded text-base ml-8"
     >Download cv 
       <IoCloudDownloadOutline className="text-xl ml-2" />
       </button>
@@ -23,7 +23,7 @@ const Navbar = () => {
 
 </div >  
 
-  <ul className="flex items-center mr-40">
+  <ul className="flex items-center mr-40 h-8">
     <li>
     <Link href={"/"} className="mr-5 hover:text-blue-600">Home</Link>
     </li>
