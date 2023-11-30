@@ -19,7 +19,7 @@ export default function Home() {
          <Services />
          <Project />
          <Contact />       
-          <nav />     */}
+               */}
     </div>
    
   )
