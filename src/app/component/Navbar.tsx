@@ -15,7 +15,7 @@ const Navbar = () => {
     <img className=" inline h-5" src="https://res.cloudinary.com/thirus/image/upload/v1628614672/logos/circleai_dm9slt.png" alt="" />
   </a>
   <a href="/cv/myCv.pdf" download="your-cv-file-name.pdf"> 
-    <button className="flex mt-1 h-5 items-center bg-inherit border-0 py-0 px-5  rounded text-base ml-8"
+    <button className="flex mt-1 h-5 items-center bg-inherit border-0 py-0 px-5  rounded text-base ml-8  hover:text-blue-600"
     >Download cv 
       <IoCloudDownloadOutline className="text-xl ml-2" />
       </button>
