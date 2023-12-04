@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 //import nav from './component/nav'
 //import Hero from './component/Hero'
-import Navbar from './component/Navbar'
+import Navbar from './component/layout/Navbar'
 //import Contact from './component/Contact'
 //import Project from './component/Project'
 //import About from './component/About'
