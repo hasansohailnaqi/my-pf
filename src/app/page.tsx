@@ -3,7 +3,7 @@ import Image from 'next/image'
 //import nav from './component/nav'
 //import Hero from './component/Hero'
 import Navbar from '../components/layout/Navbar'
-//import Contact from './component/Contact'
+import Contact from '../components/Contact'
 //import Project from './component/Project'
 //import About from './component/About'
 //import Services from './component/services'
@@ -20,7 +20,11 @@ export default function Home() {
          <Project />
          <Contact />       
                */}
+               <Contact />
     </div>
-   
+
+
+
+
   )
 }
