@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { IoCloudDownloadOutline } from 'react-icons/io5'; 
+import { Menu } from 'lucide-react';
 
 
 const Navbar = () => {
@@ -23,7 +24,7 @@ const Navbar = () => {
 
 </div >  
 
-  <ul className="flex items-center mr-40 h-8">
+  <ul className="items-center mr-40 h-8 md:flex hidden gap-x-4">
     <li>
     <Link href={"/"} className="mr-5 hover:text-blue-600">Home</Link>
     </li>
@@ -36,12 +37,14 @@ const Navbar = () => {
     <li>
     <Link href={"#"} className="mr-5 hover:text-blue-600">Services</Link>
     </li>
+    <li>
+  <Link href={"#Sign in"} className="mr-5 hover:text-blue-600">Sign in</Link>
+  </li>
   </ul>
   <div>
-  <span>
-  <Link href={"#Sign in"} className="mr-5 hover:text-blue-600">Sign in</Link>
-  </span>
+    <Menu/>
   </div>
+  
   
   </div>
   </nav>
