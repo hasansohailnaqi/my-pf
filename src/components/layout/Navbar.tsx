@@ -4,6 +4,15 @@ import Link from 'next/link'
 import React from 'react'
 import { IoCloudDownloadOutline } from 'react-icons/io5'; 
 import { Menu } from 'lucide-react';
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+
 
 
 const Navbar = () => {
@@ -42,12 +51,39 @@ const Navbar = () => {
   </li>
   </ul>
   <div>
-    <Menu/>
+    
+    <Sheet>
+  <SheetTrigger><Menu/></SheetTrigger>
+  <SheetContent>
+    <SheetHeader>
+    <ul className="">
+    <li>
+    <Link href={"/"} className="mr-5 hover:text-blue-600">Home</Link>
+    </li>
+    <li>
+    <Link href={"#About"} className="mr-5 hover:text-blue-600">About</Link>
+    </li>
+    <li>
+    <Link href={"#"} className="mr-5 hover:text-blue-600">Contact</Link>
+    </li>
+    <li>
+    <Link href={"#"} className="mr-5 hover:text-blue-600">Services</Link>
+    </li>
+    <li>
+  <Link href={"#Sign in"} className="mr-5 hover:text-blue-600">Sign in</Link>
+  </li>
+  </ul>
+    </SheetHeader>
+  </SheetContent>
+</Sheet>
   </div>
   
   
   </div>
+  
   </nav>
+ 
+
 </header>
 
   )
