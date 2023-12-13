@@ -73,9 +73,9 @@ const Navbar = () => {
   <Link href={"#Sign in"} className="mr-5 hover:text-blue-600">Sign in</Link>
   </li>
   <li><a href="/cv/myCv.pdf" download="your-cv-file-name.pdf"> 
-    <button className="flex mt-1 h-5 items-center bg-inherit border-0 py-0 px-5  rounded text-base ml-8  hover:text-blue-600"
+    <button className=" hover:text-blue-600"
     >Download cv 
-      <IoCloudDownloadOutline className="text-xl ml-2" />
+      {/* <IoCloudDownloadOutline className="text-xl ml-2" /> */}
       </button>
       </a>
       </li>
