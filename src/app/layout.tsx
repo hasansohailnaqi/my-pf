@@ -5,7 +5,7 @@ import Navbar from '../components/layout/Navbar'
 //import Footer from './component/footer'
 //import Header from "@/components/layout/header"
 //import About from '@/components/About'
-
+import { ThemeProvider } from "@/components/provider"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,9 +23,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
       <Navbar />
-     
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
         {children}
-        
+        </ThemeProvider>
         
         </body>
     </html>
