@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import { Menu } from "lucide-react";
+import { Loader } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -66,8 +67,8 @@ const Navbar = () => {
             </li>
           </ul>
           
-          <div className="flex">
-          <svg
+          <div className="flex ">
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
