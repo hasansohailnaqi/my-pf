@@ -67,7 +67,7 @@ const Navbar = () => {
             </li>
           </ul>
           
-          <div className="flex ">
+          <div className="flex items-center gap-4 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
