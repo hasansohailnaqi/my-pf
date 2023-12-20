@@ -1,10 +1,11 @@
+"use client"
 //import { Anybody } from 'next/font/google'
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import { Menu } from "lucide-react";
-import { Loader } from "lucide-react";
+//import { Loader } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -15,7 +16,22 @@ import {
 } from "@/components/ui/sheet";
 
 
+ 
+//import * as React from "react"
+import { Moon, Sun } from "lucide-react"
+import { useTheme } from "next-themes"
+ 
+import { Button } from "@/components/ui/button"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+
+
 const Navbar = () => {
+  const { setTheme } = useTheme()
   return (
     <header>
       <nav className=" bg-slate-200 p-7 ">
@@ -66,9 +82,9 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          
+        
           <div className="flex items-center gap-4 ">
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -88,8 +104,31 @@ const Navbar = () => {
               <line x1="18" x2="22" y1="12" y2="12" />
               <line x1="4.93" x2="7.76" y1="19.07" y2="16.24" />
               <line x1="16.24" x2="19.07" y1="7.76" y2="4.93" />
-            </svg>
-            <Sheet>
+  </svg> */}
+
+
+            <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="outline" size="icon">
+          <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+          <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+          <span className="sr-only">Toggle theme</span>
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end">
+        <DropdownMenuItem onClick={() => setTheme("light")}>
+          Light
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("dark")}>
+          Dark
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("system")}>
+          System
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+   
+                      <Sheet>
               <SheetTrigger>
                 <Menu />
               </SheetTrigger>
