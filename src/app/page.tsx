@@ -19,8 +19,8 @@ export default function Home() {
          <Services />
          <Project />
          <Contact />       
-               */}
-               <About />
+  */}
+                <About />
                <Contact />
                
     </div>
