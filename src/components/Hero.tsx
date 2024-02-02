@@ -17,19 +17,18 @@ const HeroSection = () => {
             className="rounded-full shadow-2xl"
           />
         </div>
-        <div>
-        <Typewriter
+       
+        <div className="md:mt-2 md:w-3/5">
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Hasan Sohail Naqi!</h1>
+          <p className="text-lg font-bold mt-4 mb-6 md:text-2xl">
+             <Typewriter
   options={{
     strings: [ "Web Developer", "UI/UX Designer","Real Estate Consultant"],
     autoStart: true,
     loop: true,
   }}
 />
-        </div>
-        <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Hasan Sohail Naqi!</h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{"jaaaaaaaaaaaaaaaaaaaaan "}
+            I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
               JamStack Developer{" "}
             </span>
