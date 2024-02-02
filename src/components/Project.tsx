@@ -15,7 +15,7 @@ const Project = () => {
       </p>
     </div>
     <div className="flex flex-wrap -m-4">
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/2 sm:w-1/2 p-8">
         <div className="flex relative">
           <img
             alt="gallery"
@@ -36,7 +36,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/2 sm:w-1/2 p-8">
         <div className="flex relative">
           <img
             alt="gallery"
@@ -57,7 +57,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/2 sm:w-1/2 p-8">
         <div className="flex relative">
           <img
             alt="gallery"
@@ -78,7 +78,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/2 sm:w-1/2 p-8">
         <div className="flex relative">
           <img
             alt="gallery"
@@ -99,7 +99,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      {/* <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
           <img
             alt="gallery"
@@ -119,8 +119,8 @@ const Project = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      </div> */}
+      {/* <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
           <img
             alt="gallery"
@@ -140,7 +140,7 @@ const Project = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 </section>
