@@ -28,7 +28,7 @@ export default function Navbar() {
               className="hover:-translate-y-1 transition-transform "
               size={30}
             /></Link>  
-                    <Link href="https://www.linkedin.com/in/front-end-developer-headless-cms-ai-blockchain/" target="_blank">
+                    <Link href="https://www.linkedin.com/in/hasan-sohail-naqi-703bb8289/" target="_blank">
                         <AiOutlineLinkedin
               className="hover:-translate-y-1 transition-transform "
               size={30}
