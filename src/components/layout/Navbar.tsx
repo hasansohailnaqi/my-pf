@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="hover:-translate-y-1 transition-transform">       <Link href="/contact">Contact</Link></div>
                 </nav>
                 <div className="hidden lg:flex  justify-end items-center   max-w-2xl px-4 sm:px-6 lg:max-w-7xl gap-4">
-                  <Link href="https://github.com/Ajmalniz" target="_blank"> <AiOutlineGithub
+                  <Link href="https://github.com/hasansohailnaqi" target="_blank"> <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform "
               size={30}
             /></Link>  
