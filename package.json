@@ -23,6 +23,7 @@
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
     "typewriter": "^6.1.8",
+    "typewriter-editor": "^0.8.8",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
