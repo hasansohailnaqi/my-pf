@@ -6,6 +6,7 @@ import Navbar from '../components/layout/Navbar'
 import Contact from '../components/Contact'
 //import Project from './component/Project'
 import About from '../components/About'
+import HeroSection from '@/components/Hero'
 //import Services from './component/services'
 
 
@@ -20,7 +21,7 @@ export default function Home() {
          <Project />
          <Contact />       
   */}
-                <About />
+                <HeroSection/>
                <Contact />
                
     </div>
