@@ -1,4 +1,7 @@
+// import { Link } from 'lucide-react'
 import React from 'react'
+import Link from "next/link";
+
 
 const Project = () => {
   return (
@@ -23,11 +26,11 @@ const Project = () => {
             src="https://dummyimage.com/600x360"
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-              Msc-Photo-App
+            <h2>
+              Meta Solutions Corp
             </h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-              Shooting Stars
+             <h1 className="title-font text-lg font-medium text-gray-900 mb-3  hover:bg-stone-transition-transform">
+             <Link href="https://msc-photo-album-fhzfa8guy-msc-project.vercel.app"target="_blank">Photo-App</Link> 
             </h1>
             <p className="leading-relaxed">
               Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
