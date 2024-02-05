@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src={require('../../public/img/boss.jpg')}
+            src={require('../../public/img/bos.png')}
             alt=""
             width={325}
             height={325}
@@ -34,17 +34,17 @@ const HeroSection = () => {
 
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              JamStack Developer{" "}
+              Full-Stack Developer{" "}
             </span>
             based in Karachi, Pakistan. Working towards creating software that
             makes life easier and more meaningful.
           </h3>
           
-          <Link href="/project"  
+          {/* <Link href="/project"  
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
              >
             Projects
-            </Link>
+            </Link> */}
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
