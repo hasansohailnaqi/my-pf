@@ -26,7 +26,7 @@ export default function Home() {
                 <HeroSection/>
                 <AboutSection/>
                 <Project/>
-               <Contact />
+               {/* <Contact /> */}
                
     </div>
 
