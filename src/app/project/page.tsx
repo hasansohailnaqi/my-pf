@@ -1,4 +1,4 @@
-import Project from "../components/Project";
+import Project from "../../components/Project";
 export const dynamic = "force-dynamic";
 export default function Proj(){
     return (

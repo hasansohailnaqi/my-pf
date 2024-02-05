@@ -17,8 +17,8 @@ export default function Navbar() {
         <header className="mb-8 border-b mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl cursor-pointer text-neutral-500 dark:text-neutral-100">
             <div className=" hidden lg:flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
             <nav className=" gap-4 flex 2xl:ml-16 ">
-            <div className="hover:-translate-y-1 transition-transform"> <Link href="#Home" >Home</Link></div>
-            <div className="hover:-translate-y-1 transition-transform">   <Link href="Project">Projects</Link></div>
+            <div className="hover:-translate-y-1 transition-transform"> <Link href="/" >Home</Link></div>
+            <div className="hover:-translate-y-1 transition-transform">   <Link href="/project">Projects</Link></div>
             {/* <div className="hover:-translate-y-1 transition-transform">       <Link href="/certification">Certification</Link></div> */}
             <div className="hover:-translate-y-1 transition-transform">           <Link href="/about">About</Link></div>
             {/* <div className="hover:-translate-y-1 transition-transform">       <Link href="#Contact">Contact</Link></div> */}
