@@ -1,4 +1,10 @@
+import AboutSection from "../../components/ui/AboutSection";
 
+export default function About(){
+    return (
+        <div><AboutSection /></div>
+    )
+}
 
 
 

@@ -18,10 +18,10 @@ export default function Navbar() {
             <div className=" hidden lg:flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
             <nav className=" gap-4 flex 2xl:ml-16 ">
             <div className="hover:-translate-y-1 transition-transform"> <Link href="#Home" >Home</Link></div>
-            <div className="hover:-translate-y-1 transition-transform">   <Link href="">Projects</Link></div>
+            <div className="hover:-translate-y-1 transition-transform">   <Link href="Project">Projects</Link></div>
             {/* <div className="hover:-translate-y-1 transition-transform">       <Link href="/certification">Certification</Link></div> */}
-            <div className="hover:-translate-y-1 transition-transform">           <Link href="#About">About</Link></div>
-            <div className="hover:-translate-y-1 transition-transform">       <Link href="#Contact">Contact</Link></div>
+            <div className="hover:-translate-y-1 transition-transform">           <Link href="/about">About</Link></div>
+            {/* <div className="hover:-translate-y-1 transition-transform">       <Link href="#Contact">Contact</Link></div> */}
                 </nav>
                 <div className="hidden lg:flex  justify-end items-center   max-w-2xl px-4 sm:px-6 lg:max-w-7xl gap-4">
                   <Link href="https://github.com/hasansohailnaqi" target="_blank"> <AiOutlineGithub
