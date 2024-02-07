@@ -23,7 +23,7 @@ const Project = () => {
           <img
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="https://dummyimage.com/600x360"
+            src="https://dummyimage.com/601x361"
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2>
@@ -60,7 +60,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/2 sm:w-1/2 p-8">
+      {/* <div className="lg:w-1/2 sm:w-1/2 p-8">
         <div className="flex relative">
           <img
             alt="gallery"
@@ -101,7 +101,7 @@ const Project = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
           <img
