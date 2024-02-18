@@ -1,6 +1,7 @@
 // import { Link } from 'lucide-react'
 import React from 'react'
 import Link from "next/link";
+import Image from 'next/image';
 
 
 const Project = () => {
@@ -13,9 +14,8 @@ const Project = () => {
         My projects
       </h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-      "My project, built on Node.js and TypeScript, demonstrates the synergy of these technologies,
-       offering a modern and type-safe development environment for building scalable and maintainable server-side applications.
-      </p>
+      "My project built on Node.js and TypeScript demonstrates the synergy of these technologies
+       offering a modern and type-safe development environment for building scalable and maintainable server-side applications"</p>
     </div>
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/2 sm:w-1/2 p-8">
